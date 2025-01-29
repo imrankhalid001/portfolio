@@ -1,10 +1,13 @@
-
-import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import profile from "./profile.png";
+import {
+  faAppStore,
+  faGithub,
+  faGooglePlay,
+} from "@fortawesome/free-brands-svg-icons";
+import {} from "@fortawesome/free-solid-svg-icons";
 
 export const navigation = {
-  name: "Hashir",
+  name: "Imran",
   links: [
     {
       title: "About",
@@ -22,15 +25,12 @@ export const navigation = {
       title: "Links",
       link: "/links",
     },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
-    }
   ],
-}
+};
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm Imran",
+  description:
+    "A Software Engineer specializing in building native and hybrid mobile apps. I focus on delivering high-performance, user-friendly solutions that solve real-world problems.",
   image: profile.src,
   buttons: [
     {
@@ -44,16 +44,16 @@ export const intro = {
       isPrimary: false,
     },
   ],
-}
+};
 
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I graduated from COMSATS University in 2020 with a degree in Software Engineering. I kick-started my professional career as a mobile application developer at Dev Saar, then moved on to Astute Solutions, and now I’m working remotely.",
+    "The tech industry is ever-evolving, and I love growing with it while continually solidifying the fundamentals. I open-source my code from a place of empathy—for future developers, teammates, and users, with accessibility always in mind. I also enjoy being part of developer communities, mentoring new developers, and supporting organizations that promote diversity in tech. I’m sharing my programming journey on Linkedin, helping people who are just getting started in the field.",
+    "When I’m not programming, I focus on my hobbies, which include diary writing, doodling, meeting new people, and expanding my network.",
   ],
-}
+};
 
 export const work = {
   title: "What I do",
@@ -67,103 +67,100 @@ export const work = {
       title: "Web Development",
       description: "I create responsive static websites using Reactjs.",
       icons: null,
-    }
+    },
   ],
-}
+};
 
 export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "ExecArray",
+      description:
+        "ExecArray is a Flutter-based event management app that simplifies the purchase or rental of event essentials like chairs, tables, tents, and more. It uses multiple APIs to provide a seamless user experience, helping users efficiently manage event logistics.",
       icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          link: "https://github.com/imrankhalid001/ExecArray",
         },
-      ]
+      ],
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "Key Car Rental",
+      description:
+        "Key Car Rental App offers a seamless multilingual interface for easy car rentals through search or integrated maps, along with exclusive monthly subscription benefits. Built using MVVM architecture and Kotlin for a modern UI, the app supports secure transactions with payment options like Mada Pay, Paytabs, and Hyperpay.",
       icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
         {
           icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+          link: "https://play.google.com/store/apps/details?id=comcom.key",
         },
-      ]
+      ],
     },
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: "Weat Local Market",
+      description:
+        "Weat Local is a multi-vendor marketplace that empowers sellers to list items easily with API integration, Room Database, and Firebase Analytics. Developed with MVVM architecture and Kotlin, it offers features like secure payments through Stripe, authentication, and app push notifications for a modern and efficient shopping experience.",
       icons: [
         {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          icon: faGooglePlay,
+          link: "https://play.google.com/store/apps/details?id=com.weat_local.weatbuyerside",
         },
-      ]
+      ],
     },
   ],
-}
+};
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description:
+    "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:imrankhalid696@gmail.com",
       isPrimary: true,
     },
     {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
+      title: "My LinkedIn",
+      link: "https://www.linkedin.com/in/imran-khalid-458a59161/",
       isPrimary: false,
     },
-  ]
-}
+  ],
+};
 
-// SEARCH ENGINE 
+// SEARCH ENGINE
 export const SEO = {
-  // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  // 50 - 60 char
+  title: "Imran Khalid | Software Engineer | Flutter | Reactjs developer",
+  description:
+    "I create mobile apps and static websites. I graduated from Comsats university Islamabad in 2020 with a degree in Software Engineering.",
   image: profile.src,
-}
+};
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@ImranKhalid",
+  description: "Software Engineer | Flutter | Reactjs Developer",
   cards: [
     {
       title: "My website",
       link: "https://hashirshoaeb.com/",
     },
     {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
+      title: "ExecArray",
+      link: "https://github.com/imrankhalid001/ExecArray",
     },
     {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
+      title: "Weat Local Market",
+      link: "https://play.google.com/store/apps/details?id=com.weat_local.weatbuyerside",
     },
     {
       title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      link: "https://github.com/imrankhalid001/",
     },
     {
       title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      link: "https://www.linkedin.com/in/imran-khalid-458a59161/",
     },
-  ]
-}
+  ],
+};
