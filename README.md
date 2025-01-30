@@ -1,3 +1,3 @@
 # Portfolio
 
-[portfolio](https://imrankhalid001.github.io/portfolio/)
+[portfolio](https://imrankhalid001.github.io)
