@@ -143,10 +143,6 @@ export const links = {
   description: "Software Engineer | Flutter | Reactjs Developer",
   cards: [
     {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
       title: "ExecArray",
       link: "https://github.com/imrankhalid001/ExecArray",
     },
