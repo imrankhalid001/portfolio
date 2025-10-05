@@ -88,6 +88,18 @@ export const projects = {
       ],
     },
     {
+      title: "PDF Converter: Image to PDF",
+      description:
+        "PDF Converter is a simple and efficient Android app that allows users to convert images into high-quality PDF files within seconds. Designed for quick and smooth performance, it supports multiple image selections, PDF customization, and offline conversion. Perfect for students, professionals, and everyday users who need a fast and reliable image-to-PDF solution.",
+      icons: [
+        {
+          icon: faGooglePlay,
+          link: "https://play.google.com/store/apps/details?id=com.imidroid.imagetopdf",
+        },
+      ],
+    },
+
+    {
       title: "Key Car Rental",
       description:
         "Key Car Rental App offers a seamless multilingual interface for easy car rentals through search or integrated maps, along with exclusive monthly subscription benefits. Built using MVVM architecture and Kotlin for a modern UI, the app supports secure transactions with payment options like Mada Pay, Paytabs, and Hyperpay.",
@@ -115,7 +127,7 @@ export const projects = {
 export const contact = {
   title: "Get in touch",
   description:
-    "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+    "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at imrankhalid696@gmail.com.",
   buttons: [
     {
       title: "Email Me",
