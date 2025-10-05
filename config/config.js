@@ -38,6 +38,8 @@ export const intro = {
       link: "#contact",
       isPrimary: true,
     },
+
+    // working on resume changes
     {
       title: "Resume",
       link: "https://drive.google.com/file/d/1NBp3fQXrMouftqGNhggXMpq6bUb7kErv/view?usp=sharing",
