@@ -147,7 +147,8 @@ export const contact = {
 // SEARCH ENGINE
 export const SEO = {
   // 50 - 60 char
-  title: "Imran Khalid | Software Engineer | Flutter | Reactjs developer",
+  title:
+    "Imran Khalid | Software Engineer | Android | Flutter | Reactjs developer",
   description:
     "I create mobile apps and static websites. I graduated from Comsats university Islamabad in 2020 with a degree in Software Engineering.",
   image: profile.src,
@@ -156,7 +157,7 @@ export const SEO = {
 export const links = {
   image: profile.src,
   title: "@ImranKhalid",
-  description: "Software Engineer | Flutter | Reactjs Developer",
+  description: "Software Engineer | Android | Flutter | Reactjs Developer",
   cards: [
     {
       title: "ExecArray",
